@@ -1,0 +1,36 @@
+.parallax {
+  /* The image used */
+  background-image: url("https://i.picsum.photos/id/295/1038/1038.jpg?hmac=r-YBo-y135kOlSTi1xpWwNuI4PiElYXjE0ityrtlxqI");
+  opacity: 0.65;
+
+  /* Set a specific height */
+  min-height: 100vh;
+  position: relative;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.separator {
+  background: peachpuff;
+  padding: 60px;
+}
